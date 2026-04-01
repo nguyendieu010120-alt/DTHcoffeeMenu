@@ -33,6 +33,25 @@
 
     // Hiển thị tên bàn
     document.getElementById("tableName").textContent = "Bàn: " + table;
+    <div id="menu"></div>
+
+<script>
+fetch('menu.json')
+  .then(response => response.json())
+  .then(data => {
+    let container = document.getElementById("menu");
+    data.forEach(item => {
+      container.innerHTML += `
+        <div class="menu-item">
+          <h3>${item.name}</h3>
+          <p>Giá: ${item.price} VND / ${item.unit}</p>
+          <img src="images/${item.image}" alt="${item.name}">
+          <button>Chọn món</button>
+        </div>`;
+    });
+  });
+</script>
+
   </script>
 </body>
 </html>
