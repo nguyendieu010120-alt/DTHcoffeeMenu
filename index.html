@@ -8,23 +8,8 @@
   <h1>Menu DTH Coffee</h1>
   <h2 id="tableName">Bàn: </h2>
 
-  <div class="menu-item">
-    <h3>Cà phê sữa</h3>
-    <p>Giá: 25,000 VND</p>
-    <button>Chọn món</button>
-  </div>
-
-  <div class="menu-item">
-    <h3>Trà đào</h3>
-    <p>Giá: 30,000 VND</p>
-    <button>Chọn món</button>
-  </div>
-
-  <div class="menu-item">
-    <h3>Bánh ngọt</h3>
-    <p>Giá: 20,000 VND</p>
-    <button>Chọn món</button>
-  </div>
+  <!-- Container để hiển thị menu -->
+  <div id="menu"></div>
 
   <script>
     // Lấy tham số "table" từ URL
@@ -33,25 +18,22 @@
 
     // Hiển thị tên bàn
     document.getElementById("tableName").textContent = "Bàn: " + table;
-    <div id="menu"></div>
 
-<script>
-fetch('menu.json')
-  .then(response => response.json())
-  .then(data => {
-    let container = document.getElementById("menu");
-    data.forEach(item => {
-      container.innerHTML += `
-        <div class="menu-item">
-          <h3>${item.name}</h3>
-          <p>Giá: ${item.price} VND / ${item.unit}</p>
-          <img src="images/${item.image}" alt="${item.name}">
-          <button>Chọn món</button>
-        </div>`;
-    });
-  });
-</script>
-
+    // Đọc dữ liệu từ file menu.json
+    fetch('menu.json')
+      .then(response => response.json())
+      .then(data => {
+        let container = document.getElementById("menu");
+        data.forEach(item => {
+          container.innerHTML += `
+            <div class="menu-item">
+              <h3>${item.name}</h3>
+              <p>Giá: ${item.price} VND / ${item.unit}</p>
+              <img src="images/${item.image}" alt="${item.name}">
+              <button>Chọn món</button>
+            </div>`;
+        });
+      });
   </script>
 </body>
 </html>
