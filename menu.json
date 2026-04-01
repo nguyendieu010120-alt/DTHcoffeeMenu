@@ -1,0 +1,135 @@
+[
+  {
+    "Id": "M0001",
+    "Name": "Americano",
+    "Unit": "Ly",
+    "Price": 15000,
+    "Image": "Americano.png"
+  },
+  {
+    "Id": "M0002",
+    "Name": "Cafe \u0111en \u0111\u00E1",
+    "Unit": "Ly",
+    "Price": 8000,
+    "Image": "cfden.png"
+  },
+  {
+    "Id": "M0004",
+    "Name": "Cafe s\u1EEFa \u0111\u00E1",
+    "Unit": "Ly",
+    "Price": 15000,
+    "Image": "cfsua.png"
+  },
+  {
+    "Id": "M0006",
+    "Name": "Latte",
+    "Unit": "Ly",
+    "Price": 23000,
+    "Image": "Latte.png"
+  },
+  {
+    "Id": "M0007",
+    "Name": "B\u1EA1c x\u1EC9u",
+    "Unit": "Ly",
+    "Price": 15000,
+    "Image": "bacxiu.png"
+  },
+  {
+    "Id": "M0008",
+    "Name": "Tr\u00E0 v\u1EA3i",
+    "Unit": "Ly",
+    "Price": 16000,
+    "Image": "travai.png"
+  },
+  {
+    "Id": "M0010",
+    "Name": "Tr\u00E0 \u0111\u00E0o",
+    "Unit": "Ly",
+    "Price": 120000,
+    "Image": "tradao.png"
+  },
+  {
+    "Id": "M0011",
+    "Name": "Tr\u00E0 chanh",
+    "Unit": "Ly",
+    "Price": 15247700,
+    "Image": "trachanh.png"
+  },
+  {
+    "Id": "M0012",
+    "Name": "N\u01B0\u1EDBc \u00E9p cam",
+    "Unit": "Ly",
+    "Price": 60000,
+    "Image": "Cam.png"
+  },
+  {
+    "Id": "M0013",
+    "Name": "\u00C9p d\u01B0a h\u1EA5u",
+    "Unit": "Ly",
+    "Price": 190000,
+    "Image": "Duahau.png"
+  },
+  {
+    "Id": "M0014",
+    "Name": "\u00C9p th\u01A1m",
+    "Unit": "ly",
+    "Price": 12313,
+    "Image": "Thom.png"
+  },
+  {
+    "Id": "M0015",
+    "Name": "\u00C9p \u1ED5i",
+    "Unit": "ly",
+    "Price": 15000,
+    "Image": "oi.png"
+  },
+  {
+    "Id": "M0016",
+    "Name": "Cafe kem mu\u1ED1i",
+    "Unit": "Ly",
+    "Price": 18000,
+    "Image": "kemmuoi.png"
+  },
+  {
+    "Id": "M0017",
+    "Name": "Matcha latte",
+    "Unit": "ly",
+    "Price": 5000,
+    "Image": "matcha.png"
+  },
+  {
+    "Id": "M0018",
+    "Name": "Tr\u00E0 s\u1EEFa",
+    "Unit": "Ly",
+    "Price": 20000,
+    "Image": "trasua.png"
+  },
+  {
+    "Id": "M0019",
+    "Name": "Tr\u00E0 g\u1EEBng",
+    "Unit": "Ly",
+    "Price": 16000,
+    "Image": "tragung.png"
+  },
+  {
+    "Id": "M0020",
+    "Name": "Tiramisu",
+    "Unit": "C\u00E1i",
+    "Price": 13130,
+    "Image": "tiramisu.png"
+  },
+  {
+    "Id": "M0021",
+    "Name": "Croissant",
+    "Unit": "d\u0129a",
+    "Price": 16000,
+    "Image": "Croissant.png"
+  },
+  {
+    "Id": "M0023",
+    "Name": "B\u00E1nh tart tr\u1EE9ng",
+    "Unit": "d\u0129a",
+    "Price": 120000,
+    "Image": "tart.png"
+  }
+]
